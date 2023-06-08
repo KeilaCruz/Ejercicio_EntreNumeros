@@ -3,14 +3,14 @@ import java.util.Scanner;
 
 public class EntreNumeros{
     /**
-     * Método main toma dos valores entero de entrada
+     * Método main toma dos numeros enteros de entrada
      * @param args
      */
     public static void main(String[]args){
         Scanner input = new Scanner(System.in);
-        System.out.print("Ingresa un numero: ");
+        System.out.print("Ingrese un numero: ");
         int numUno = input.nextInt();
-        System.out.print("Ingresa otro numero: ");
+        System.out.print("Ingrese otro numero mayor al numero uno: ");
         int numDos = input.nextInt();
         imprimirNumeros(numUno, numDos);
     }
