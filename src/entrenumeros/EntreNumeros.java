@@ -29,7 +29,7 @@ public class EntreNumeros {
             System.out.println("El num uno no es valido");
         }
         for (int i = numUno + 1; i < numDos; i++) {
-            if (i % 2 == 0) {
+            if (i % 2 != 0) {
                 System.out.print(i + " ");
             }
         }
